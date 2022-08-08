@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   .button{
+    border: none;
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    </style>
+</head>
+<body>
+    <div id="calculo col-4 m-auto">
+        <!-- Crie os dois campos chamados "inputValorA" e "inputValorB" -->
+        <fieldset>
+        <label for="inputValorB">Valor de A:</label>
+        <input type="text" name="inputA" id="input1" class="form-control mb-2" placeholder="Digite o valor de A:">
+    </fieldset>
+        <fieldset>
+        <label for="inputValorB">Valor de B:</label>
+        <input type="text" name="inputB" id="input2" class="form-control mb-2" placeholder="Digite o valor de B:">
+    </fieldset>
+    </div>
+
+    <div class= "button btn btn-primary">
+        <button type="submit" id="classe" value="Somar">Somar</button>
+    </div>
+    
+
+    <div class="result col-4 m-auto">
+        <div class="sum alert alert-success"></div>
+    </div>
+    <script type="text/javascript" src="./exercicio10-soma.js"></script>
+</body>
+</body>
+</html>
